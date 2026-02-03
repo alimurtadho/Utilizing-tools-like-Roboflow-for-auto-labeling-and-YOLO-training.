@@ -1,0 +1,2362 @@
+{
+  "total_frames": 2001,
+  "processed_frames": 100,
+  "motorcycles_detected": 71,
+  "total_occupants": 5,
+  "helmets_worn": 1,
+  "helmets_not_worn": 4,
+  "compliance_rate": 20.0,
+  "video_duration_seconds": 66.7,
+  "detections": [
+    {
+      "frame_number": 5,
+      "timestamp": 0.16666666666666666,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7027506828308105,
+          "box": [
+            835.2080078125,
+            406.77764892578125,
+            905.990966796875,
+            564.2452392578125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 0.3333333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7299075722694397,
+          "box": [
+            820.7896728515625,
+            417.4103698730469,
+            898.1688232421875,
+            575.4878540039062
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7059075236320496,
+          "box": [
+            1222.2855224609375,
+            254.9429931640625,
+            1279.001953125,
+            387.5299072265625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 0.5,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7239657044410706,
+          "box": [
+            810.7979736328125,
+            481.9979553222656,
+            893.531982421875,
+            633.2859497070312
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7208693027496338,
+          "box": [
+            1214.793212890625,
+            261.8282775878906,
+            1281.7471923828125,
+            400.3022766113281
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 0.6666666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7241609692573547,
+          "box": [
+            473.6578063964844,
+            395.0235290527344,
+            577.9775390625,
+            476.7598876953125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 0.8333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7051363587379456,
+          "box": [
+            473.293212890625,
+            395.1634521484375,
+            578.3701782226562,
+            477.09393310546875
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7046631574630737,
+          "box": [
+            1201.003173828125,
+            275.728271484375,
+            1263.599365234375,
+            415.12994384765625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 1.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7218548059463501,
+          "box": [
+            473.20489501953125,
+            395.4288330078125,
+            578.27197265625,
+            477.1170654296875
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 1.1666666666666667,
+      "motorcycles": 2,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7879825830459595,
+          "box": [
+            759.8504028320312,
+            517.2911376953125,
+            848.2884521484375,
+            672.2626342773438
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7194918990135193,
+          "box": [
+            473.27777099609375,
+            395.9914245605469,
+            578.0092163085938,
+            477.1469421386719
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 1.3333333333333333,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7266308069229126,
+          "box": [
+            473.2608642578125,
+            395.7733459472656,
+            577.6337280273438,
+            477.1413879394531
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 1.5,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.722837507724762,
+          "box": [
+            1175.4859619140625,
+            298.7416687011719,
+            1244.90087890625,
+            441.82623291015625
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7212890982627869,
+          "box": [
+            473.11370849609375,
+            396.04119873046875,
+            577.7874145507812,
+            477.05560302734375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 1.6666666666666667,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7531871199607849,
+          "box": [
+            733.1557006835938,
+            466.3029479980469,
+            819.7664184570312,
+            653.4188232421875
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7136061191558838,
+          "box": [
+            473.2198181152344,
+            396.1805725097656,
+            577.7848510742188,
+            477.1123352050781
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 1.8333333333333333,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7242752313613892,
+          "box": [
+            473.1866455078125,
+            396.3643798828125,
+            577.767578125,
+            477.3443298339844
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 2.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7173561453819275,
+          "box": [
+            473.1458435058594,
+            396.14447021484375,
+            577.7925415039062,
+            477.22808837890625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 2.1666666666666665,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7172831892967224,
+          "box": [
+            473.2694396972656,
+            396.35321044921875,
+            577.9672241210938,
+            477.07696533203125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 2.3333333333333335,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7064324617385864,
+          "box": [
+            473.2210998535156,
+            396.2906494140625,
+            577.9537963867188,
+            477.3600158691406
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 2.5,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7195859551429749,
+          "box": [
+            473.2726745605469,
+            396.2913513183594,
+            578.408935546875,
+            477.28515625
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.713676929473877,
+          "box": [
+            1142.511962890625,
+            336.259765625,
+            1211.487060546875,
+            485.7080383300781
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 2.6666666666666665,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7036210298538208,
+          "box": [
+            1134.0604248046875,
+            341.84283447265625,
+            1211.750732421875,
+            502.1283264160156
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 2.8333333333333335,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 3.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.8229138851165771,
+          "box": [
+            1113.3680419921875,
+            431.36053466796875,
+            1202.5323486328125,
+            567.3734741210938
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 3.1666666666666665,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 3.3333333333333335,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7374553084373474,
+          "box": [
+            1106.4747314453125,
+            360.9525146484375,
+            1183.86376953125,
+            524.086181640625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 3.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7260920405387878,
+          "box": [
+            1100.6605224609375,
+            365.3747253417969,
+            1178.4649658203125,
+            533.3566284179688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 3.6666666666666665,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 3.8333333333333335,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 4.0,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 4.166666666666667,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 4.333333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7184130549430847,
+          "box": [
+            1077.0135498046875,
+            391.5970764160156,
+            1169.07421875,
+            565.8177490234375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 4.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7183131575584412,
+          "box": [
+            1062.02978515625,
+            480.6719055175781,
+            1156.408935546875,
+            632.8255004882812
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 4.833333333333333,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7226417064666748,
+          "box": [
+            1058.92919921875,
+            485.1813659667969,
+            1142.5751953125,
+            641.9464111328125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 150,
+      "timestamp": 5.0,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 155,
+      "timestamp": 5.166666666666667,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 165,
+      "timestamp": 5.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7218946814537048,
+          "box": [
+            1041.536865234375,
+            422.4625549316406,
+            1133.9310302734375,
+            609.8165283203125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 170,
+      "timestamp": 5.666666666666667,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 175,
+      "timestamp": 5.833333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7279264330863953,
+          "box": [
+            1031.3602294921875,
+            431.77642822265625,
+            1126.6512451171875,
+            622.5089721679688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 185,
+      "timestamp": 6.166666666666667,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7226704955101013,
+          "box": [
+            915.489501953125,
+            431.7607116699219,
+            997.3471069335938,
+            605.1486206054688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 190,
+      "timestamp": 6.333333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 195,
+      "timestamp": 6.5,
+      "motorcycles": 1,
+      "occupants": 1,
+      "helmets": 0,
+      "no_helmets": 1,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.752787709236145,
+          "box": [
+            1002.5679321289062,
+            548.2171020507812,
+            1093.0672607421875,
+            709.433349609375
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7253844141960144,
+          "box": [
+            1009.2191162109375,
+            447.67529296875,
+            1111.7138671875,
+            655.24560546875
+          ]
+        }
+      ],
+      "helmet_analysis": [
+        {
+          "has_helmet": false,
+          "confidence": 0.23055731818680397,
+          "helmet_color": "white",
+          "head_box": [
+            1009,
+            447,
+            1111,
+            499
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 200,
+      "timestamp": 6.666666666666667,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7102655172348022,
+          "box": [
+            992.6949462890625,
+            453.4660339355469,
+            1096.3125,
+            694.5645751953125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 205,
+      "timestamp": 6.833333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 210,
+      "timestamp": 7.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7362146377563477,
+          "box": [
+            989.034423828125,
+            458.7619934082031,
+            1094.7608642578125,
+            697.419921875
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.703417956829071,
+          "box": [
+            877.6652221679688,
+            485.81317138671875,
+            965.9801635742188,
+            666.24462890625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 215,
+      "timestamp": 7.166666666666667,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7105588316917419,
+          "box": [
+            989.792236328125,
+            459.3766174316406,
+            1092.09912109375,
+            686.2124633789062
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 220,
+      "timestamp": 7.333333333333333,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7161018252372742,
+          "box": [
+            990.6944580078125,
+            461.23736572265625,
+            1090.459716796875,
+            687.646240234375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 225,
+      "timestamp": 7.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7103162407875061,
+          "box": [
+            990.0731811523438,
+            460.8533935546875,
+            1091.3961181640625,
+            685.2234497070312
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 230,
+      "timestamp": 7.666666666666667,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7003819346427917,
+          "box": [
+            989.045166015625,
+            461.0399475097656,
+            1090.3121337890625,
+            688.7378540039062
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 235,
+      "timestamp": 7.833333333333333,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7248685359954834,
+          "box": [
+            850.312255859375,
+            497.9114685058594,
+            945.0281372070312,
+            706.4268188476562
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7162793278694153,
+          "box": [
+            988.903564453125,
+            461.08135986328125,
+            1090.3812255859375,
+            689.6490478515625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 240,
+      "timestamp": 8.0,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7124280333518982,
+          "box": [
+            986.9443969726562,
+            460.4765625,
+            1091.1966552734375,
+            692.6547241210938
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 245,
+      "timestamp": 8.166666666666666,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7123885750770569,
+          "box": [
+            987.192138671875,
+            460.63653564453125,
+            1091.4326171875,
+            694.8341674804688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 250,
+      "timestamp": 8.333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7211892604827881,
+          "box": [
+            839.4691162109375,
+            509.5820007324219,
+            939.7752685546875,
+            715.8147583007812
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7101062536239624,
+          "box": [
+            986.6063842773438,
+            460.640869140625,
+            1090.251953125,
+            686.8275146484375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 255,
+      "timestamp": 8.5,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7559192776679993,
+          "box": [
+            841.017333984375,
+            510.88818359375,
+            938.9573364257812,
+            715.94189453125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 260,
+      "timestamp": 8.666666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7040759921073914,
+          "box": [
+            841.9232177734375,
+            527.647705078125,
+            936.5973510742188,
+            718.3403930664062
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 265,
+      "timestamp": 8.833333333333334,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 270,
+      "timestamp": 9.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7267294526100159,
+          "box": [
+            841.4583740234375,
+            524.3856201171875,
+            936.6068725585938,
+            718.6780395507812
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 275,
+      "timestamp": 9.166666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7373632192611694,
+          "box": [
+            841.1934814453125,
+            524.5474243164062,
+            936.5902099609375,
+            718.3797607421875
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 280,
+      "timestamp": 9.333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7120802998542786,
+          "box": [
+            841.1644287109375,
+            524.6474609375,
+            935.8564453125,
+            718.521484375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 285,
+      "timestamp": 9.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 290,
+      "timestamp": 9.666666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7114253044128418,
+          "box": [
+            841.8236694335938,
+            528.8109741210938,
+            936.6499633789062,
+            718.5205688476562
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 295,
+      "timestamp": 9.833333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7103812098503113,
+          "box": [
+            841.5905151367188,
+            528.568603515625,
+            936.5623779296875,
+            718.3252563476562
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 300,
+      "timestamp": 10.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7331022024154663,
+          "box": [
+            841.5457153320312,
+            528.1660766601562,
+            936.23291015625,
+            717.7573852539062
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 305,
+      "timestamp": 10.166666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7275696992874146,
+          "box": [
+            841.5341186523438,
+            528.1868286132812,
+            937.2552490234375,
+            718.01904296875
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 310,
+      "timestamp": 10.333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7345514297485352,
+          "box": [
+            841.0741577148438,
+            528.8756103515625,
+            938.1759643554688,
+            717.9923706054688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 315,
+      "timestamp": 10.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 320,
+      "timestamp": 10.666666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7083711624145508,
+          "box": [
+            842.502685546875,
+            529.1915283203125,
+            937.3284301757812,
+            717.6976928710938
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 325,
+      "timestamp": 10.833333333333334,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 330,
+      "timestamp": 11.0,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 335,
+      "timestamp": 11.166666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7294424176216125,
+          "box": [
+            842.4345092773438,
+            526.7372436523438,
+            938.7384643554688,
+            717.5049438476562
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 340,
+      "timestamp": 11.333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7154579162597656,
+          "box": [
+            842.865966796875,
+            529.9807739257812,
+            937.52001953125,
+            717.5250244140625
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 345,
+      "timestamp": 11.5,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.782859742641449,
+          "box": [
+            842.306396484375,
+            524.8367919921875,
+            938.8316040039062,
+            717.54150390625
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.717162013053894,
+          "box": [
+            1163.28955078125,
+            192.462646484375,
+            1208.0599365234375,
+            308.52520751953125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 350,
+      "timestamp": 11.666666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7682464718818665,
+          "box": [
+            842.6534423828125,
+            526.1641235351562,
+            938.7437133789062,
+            717.5747680664062
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 355,
+      "timestamp": 11.833333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7259330153465271,
+          "box": [
+            842.7943115234375,
+            526.6863403320312,
+            938.7263793945312,
+            717.6141967773438
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 360,
+      "timestamp": 12.0,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 365,
+      "timestamp": 12.166666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7193663716316223,
+          "box": [
+            842.412841796875,
+            526.8344116210938,
+            938.4745483398438,
+            717.4804077148438
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 370,
+      "timestamp": 12.333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7020168304443359,
+          "box": [
+            843.0626220703125,
+            530.8605346679688,
+            937.6007690429688,
+            717.6809692382812
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 375,
+      "timestamp": 12.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 380,
+      "timestamp": 12.666666666666666,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 385,
+      "timestamp": 12.833333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7072877883911133,
+          "box": [
+            473.7121276855469,
+            395.6613464355469,
+            577.141845703125,
+            476.5405578613281
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 390,
+      "timestamp": 13.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7194865942001343,
+          "box": [
+            473.7188720703125,
+            395.9074401855469,
+            576.8924560546875,
+            476.44366455078125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 395,
+      "timestamp": 13.166666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.721481204032898,
+          "box": [
+            473.6528015136719,
+            395.86041259765625,
+            576.9400634765625,
+            476.41400146484375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 400,
+      "timestamp": 13.333333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7300383448600769,
+          "box": [
+            473.6907653808594,
+            395.65509033203125,
+            576.9306640625,
+            476.364501953125
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 405,
+      "timestamp": 13.5,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 410,
+      "timestamp": 13.666666666666666,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 415,
+      "timestamp": 13.833333333333334,
+      "motorcycles": 3,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7961457967758179,
+          "box": [
+            799.0047607421875,
+            532.620361328125,
+            905.230712890625,
+            760.0314331054688
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7738302946090698,
+          "box": [
+            568.51708984375,
+            588.3746948242188,
+            703.4635009765625,
+            767.3219604492188
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7094637155532837,
+          "box": [
+            473.7779235839844,
+            395.8865966796875,
+            577.0845336914062,
+            476.3912658691406
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 420,
+      "timestamp": 14.0,
+      "motorcycles": 2,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7621259689331055,
+          "box": [
+            781.4724731445312,
+            569.483642578125,
+            894.814697265625,
+            777.8370971679688
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7326104044914246,
+          "box": [
+            473.7735900878906,
+            395.9059143066406,
+            577.0211181640625,
+            476.2378234863281
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 425,
+      "timestamp": 14.166666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7129089832305908,
+          "box": [
+            473.8690185546875,
+            396.5408630371094,
+            576.4213256835938,
+            476.10736083984375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 430,
+      "timestamp": 14.333333333333334,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 435,
+      "timestamp": 14.5,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7284414172172546,
+          "box": [
+            981.625,
+            468.212158203125,
+            1088.3284912109375,
+            707.6904907226562
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7284159660339355,
+          "box": [
+            726.223876953125,
+            531.7572631835938,
+            827.8938598632812,
+            765.8450927734375
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7066092491149902,
+          "box": [
+            473.8623046875,
+            396.62921142578125,
+            576.44287109375,
+            476.1668701171875
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 440,
+      "timestamp": 14.666666666666666,
+      "motorcycles": 2,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.8491437435150146,
+          "box": [
+            303.6233825683594,
+            678.5999145507812,
+            481.7964782714844,
+            874.0916137695312
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7582257390022278,
+          "box": [
+            976.627685546875,
+            473.2492980957031,
+            1086.64501953125,
+            704.5732421875
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7262662649154663,
+          "box": [
+            678.771728515625,
+            653.1416625976562,
+            814.3253173828125,
+            876.8088989257812
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 445,
+      "timestamp": 14.833333333333334,
+      "motorcycles": 2,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7503387331962585,
+          "box": [
+            974.2186889648438,
+            478.0368347167969,
+            1087.4407958984375,
+            706.0830688476562
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7198120951652527,
+          "box": [
+            638.2018432617188,
+            678.7973022460938,
+            784.318359375,
+            911.2363891601562
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7190268635749817,
+          "box": [
+            473.3385925292969,
+            394.881591796875,
+            579.4927978515625,
+            476.4757385253906
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 450,
+      "timestamp": 15.0,
+      "motorcycles": 3,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.8585312962532043,
+          "box": [
+            146.68492126464844,
+            723.9357299804688,
+            344.7338562011719,
+            933.2379150390625
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7347410917282104,
+          "box": [
+            473.4471435546875,
+            395.2427062988281,
+            579.675048828125,
+            476.71002197265625
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7206505537033081,
+          "box": [
+            967.7342529296875,
+            485.7113342285156,
+            1078.8587646484375,
+            703.6500244140625
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7117564678192139,
+          "box": [
+            499.5370178222656,
+            602.0474853515625,
+            632.929443359375,
+            784.61083984375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 455,
+      "timestamp": 15.166666666666666,
+      "motorcycles": 2,
+      "occupants": 1,
+      "helmets": 0,
+      "no_helmets": 1,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7390632629394531,
+          "box": [
+            46.25144577026367,
+            754.8446655273438,
+            269.9623718261719,
+            965.6657104492188
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7228497862815857,
+          "box": [
+            558.6937255859375,
+            639.45703125,
+            672.0330810546875,
+            927.4083862304688
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7152256965637207,
+          "box": [
+            441.0617370605469,
+            629.122314453125,
+            581.84130859375,
+            816.5159912109375
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7127271890640259,
+          "box": [
+            446.4428405761719,
+            530.9922485351562,
+            545.9600830078125,
+            745.5140991210938
+          ]
+        }
+      ],
+      "helmet_analysis": [
+        {
+          "has_helmet": false,
+          "confidence": 0.06041547550981513,
+          "helmet_color": "white",
+          "head_box": [
+            446,
+            530,
+            545,
+            583
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 460,
+      "timestamp": 15.333333333333334,
+      "motorcycles": 3,
+      "occupants": 1,
+      "helmets": 0,
+      "no_helmets": 1,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.8116477727890015,
+          "box": [
+            958.8352661132812,
+            499.82135009765625,
+            1071.742431640625,
+            722.787109375
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7265623807907104,
+          "box": [
+            956.215576171875,
+            603.8695678710938,
+            1069.47119140625,
+            780.121826171875
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.71695876121521,
+          "box": [
+            372.81500244140625,
+            656.125732421875,
+            528.7011108398438,
+            844.5093994140625
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7086140513420105,
+          "box": [
+            493.1166687011719,
+            778.6234741210938,
+            653.92431640625,
+            1055.844482421875
+          ]
+        }
+      ],
+      "helmet_analysis": [
+        {
+          "has_helmet": false,
+          "confidence": 0.20182713029979765,
+          "helmet_color": "white",
+          "head_box": [
+            958,
+            499,
+            1071,
+            554
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 465,
+      "timestamp": 15.5,
+      "motorcycles": 3,
+      "occupants": 1,
+      "helmets": 1,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.8345949053764343,
+          "box": [
+            296.8237609863281,
+            675.4954833984375,
+            467.390625,
+            877.7402954101562
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.822485625743866,
+          "box": [
+            430.1766052246094,
+            829.70751953125,
+            601.6245727539062,
+            1077.369873046875
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7266690135002136,
+          "box": [
+            436.1548767089844,
+            708.6302490234375,
+            570.7030639648438,
+            979.2493286132812
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7154896259307861,
+          "box": [
+            473.4423522949219,
+            394.955322265625,
+            579.5165405273438,
+            476.6497497558594
+          ]
+        }
+      ],
+      "helmet_analysis": [
+        {
+          "has_helmet": true,
+          "confidence": 0.4278748503931933,
+          "helmet_color": "white",
+          "head_box": [
+            436,
+            708,
+            570,
+            775
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 470,
+      "timestamp": 15.666666666666666,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7716939449310303,
+          "box": [
+            947.16650390625,
+            520.5821533203125,
+            1061.28125,
+            748.3156127929688
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7425106167793274,
+          "box": [
+            196.4674072265625,
+            710.2921752929688,
+            384.9325866699219,
+            923.8488159179688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 475,
+      "timestamp": 15.833333333333334,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.825713038444519,
+          "box": [
+            104.83826446533203,
+            740.8414916992188,
+            312.71881103515625,
+            960.2186889648438
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 480,
+      "timestamp": 16.0,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.8479572534561157,
+          "box": [
+            1.1663017272949219,
+            768.7725830078125,
+            220.76071166992188,
+            998.7581787109375
+          ]
+        },
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7113498449325562,
+          "box": [
+            923.765625,
+            544.93798828125,
+            1042.5157470703125,
+            772.9347534179688
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 485,
+      "timestamp": 16.166666666666668,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7199987769126892,
+          "box": [
+            908.4381713867188,
+            561.826171875,
+            1034.7001953125,
+            792.9086303710938
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 490,
+      "timestamp": 16.333333333333332,
+      "motorcycles": 0,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [],
+      "helmet_analysis": []
+    },
+    {
+      "frame_number": 495,
+      "timestamp": 16.5,
+      "motorcycles": 1,
+      "occupants": 1,
+      "helmets": 0,
+      "no_helmets": 1,
+      "detections": [
+        {
+          "class": 0,
+          "class_name": "person",
+          "confidence": 0.7906835675239563,
+          "box": [
+            865.0111694335938,
+            599.0560913085938,
+            997.59716796875,
+            850.3720703125
+          ]
+        },
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7000343799591064,
+          "box": [
+            860.6134643554688,
+            723.3251342773438,
+            961.978515625,
+            934.27294921875
+          ]
+        }
+      ],
+      "helmet_analysis": [
+        {
+          "has_helmet": false,
+          "confidence": 0.227967039115556,
+          "helmet_color": "white",
+          "head_box": [
+            865,
+            599,
+            997,
+            661
+          ]
+        }
+      ]
+    },
+    {
+      "frame_number": 500,
+      "timestamp": 16.666666666666668,
+      "motorcycles": 1,
+      "occupants": 0,
+      "helmets": 0,
+      "no_helmets": 0,
+      "detections": [
+        {
+          "class": 3,
+          "class_name": "motorcycle",
+          "confidence": 0.7090582251548767,
+          "box": [
+            820.2463989257812,
+            742.5928344726562,
+            967.39990234375,
+            978.552490234375
+          ]
+        }
+      ],
+      "helmet_analysis": []
+    }
+  ],
+  "summary": {
+    "motorcycles": 71,
+    "compliance_percentage": 20.0,
+    "processed_frames": 100,
+    "average_occupants_per_frame": 0.05
+  }
+}

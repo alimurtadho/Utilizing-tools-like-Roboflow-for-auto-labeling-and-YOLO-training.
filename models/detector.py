@@ -10,6 +10,7 @@ import numpy as np
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 from ultralytics import YOLO
+from models.helmet_analyzer import HelmetAnalyzer
 
 logger = logging.getLogger(__name__)
 
@@ -27,13 +28,15 @@ class HelmetDetector:
         self.model_size = model_size
         self.device = self._get_device(device)
         self.model = self._load_model()
+        self.helmet_analyzer = HelmetAnalyzer()  # Advanced helmet detection
         
-        # Class names
+        # COCO class IDs (YOLOv8 default)
         self.class_names = {
-            0: "motorcycle",
-            1: "person",
-            2: "helmet",
-            3: "no-helmet"
+            0: "person",
+            1: "bicycle",
+            2: "car",
+            3: "motorcycle",
+            4: "bus"
         }
         
         logger.info(f"✅ HelmetDetector initialized on {self.device}")
@@ -43,8 +46,9 @@ class HelmetDetector:
         if device == "auto":
             if torch.cuda.is_available():
                 return "cuda"
-            elif torch.backends.mps.is_available():
-                return "mps"
+            # MPS has issues with NMS operation - use CPU for stability
+            # elif torch.backends.mps.is_available():
+            #     return "mps"
             else:
                 return "cpu"
         return device
@@ -60,7 +64,7 @@ class HelmetDetector:
             logger.error(f"Failed to load model: {e}")
             raise
     
-    def detect(self, frame: np.ndarray, confidence: float = 0.5) -> Dict:
+    def detect(self, frame: np.ndarray, confidence: float = 0.25) -> Dict:
         """
         Run detection on single frame
         
@@ -95,12 +99,12 @@ class HelmetDetector:
                         "box": bbox.tolist()  # [x1, y1, x2, y2]
                     }
                     
-                    if cls == 0:  # motorcycle
+                    if cls == 3:  # motorcycle (COCO ID)
                         detections["motorcycles"].append(detection)
-                    elif cls == 1:  # person
+                    elif cls == 0:  # person (COCO ID)
                         detections["people"].append(detection)
-                    elif cls in [2, 3]:  # helmet or no-helmet
-                        detections["helmets"].append(detection)
+                    # Note: Standard YOLOv8 doesn't have helmet classes
+                    # Helmet detection done via head region analysis
                     
                     detections["boxes"].append(detection)
             
@@ -114,7 +118,7 @@ class HelmetDetector:
         self,
         video_path: str,
         roi: Optional[List[List[int]]] = None,
-        confidence: float = 0.5,
+        confidence: float = 0.25,  # Lower threshold for CCTV
         skip_frames: int = 1,
         max_frames: Optional[int] = None
     ) -> Dict:
@@ -176,25 +180,37 @@ class HelmetDetector:
                 # Run detection
                 detection_result = self.detect(frame_masked, confidence)
                 
+                # Match people to motorcycles and analyze helmets
+                matches = self.helmet_analyzer.match_people_to_motorcycles(
+                    detection_result["people"],
+                    detection_result["motorcycles"]
+                )
+                
+                # Analyze helmet for each person on motorcycle
+                helmet_results = []
+                for person, motorcycle in matches:
+                    helmet_analysis = self.helmet_analyzer.analyze_person_on_motorcycle(
+                        frame_masked,
+                        person['box'],
+                        motorcycle['box']
+                    )
+                    helmet_results.append(helmet_analysis)
+                
                 # Process detections
                 frame_data = {
                     "frame_number": frame_count,
                     "timestamp": frame_count / fps if fps > 0 else 0,
                     "motorcycles": len(detection_result["motorcycles"]),
-                    "occupants": len(detection_result["people"]),
-                    "helmets": 0,
-                    "no_helmets": 0,
-                    "detections": detection_result["boxes"]
+                    "occupants": len(matches),  # Only count people on motorcycles
+                    "helmets": sum(1 for h in helmet_results if h.get('has_helmet')),
+                    "no_helmets": sum(1 for h in helmet_results if not h.get('has_helmet')),
+                    "detections": detection_result["boxes"],
+                    "helmet_analysis": helmet_results
                 }
                 
                 # Count helmet status
-                for helmet in detection_result["helmets"]:
-                    if helmet["class"] == 2:  # helmet
-                        frame_data["helmets"] += 1
-                        helmets_count += 1
-                    else:  # no-helmet
-                        frame_data["no_helmets"] += 1
-                        no_helmets_count += 1
+                helmets_count += frame_data["helmets"]
+                no_helmets_count += frame_data["no_helmets"]
                 
                 # Track motorcycles
                 for moto in detection_result["motorcycles"]:

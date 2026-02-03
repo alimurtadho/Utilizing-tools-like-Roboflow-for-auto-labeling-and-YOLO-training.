@@ -10,7 +10,7 @@ torchvision>=0.17.0
 opencv-python>=4.9.0
 
 # Tracking & Processing
-numpy>=1.26.0
+numpy>=1.26.0,<2.0.0  # NumPy 2.x incompatible with torch 2.2.2
 scipy>=1.12.0
 scikit-image>=0.22.0
 Pillow>=10.2.0
