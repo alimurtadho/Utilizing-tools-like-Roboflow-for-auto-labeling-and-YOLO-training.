@@ -65,6 +65,15 @@ data/annotations/*
 !data/outputs/.gitkeep
 !data/annotations/.gitkeep
 
+# Video files
+video/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
 # Models & Weights
 models/weights/
 *.pt
